@@ -16,21 +16,21 @@ function PersonalOSPreview() {
         <div className={styles.divider} />
         <div className={styles.alertRow}>
           <span className={styles.alertBadge}>COMPOUND</span>
-          <span className={styles.alertText}>Rapidsys — UAT stalled, Gary awaiting build</span>
+          <span className={styles.alertText}>Client A — UAT stalled, awaiting build</span>
         </div>
         <div className={styles.alertRow}>
           <span className={styles.alertBadge}>STALE</span>
-          <span className={styles.alertText}>CIQ-407 — FreePBX Setup — Blocked 31d</span>
+          <span className={styles.alertText}>PRJ-407 — Integration Setup — Blocked 31d</span>
         </div>
         <div className={styles.divider} />
         <div className={styles.sectionLabel}>DUE TODAY</div>
-        <div className={styles.taskRow}><span className={styles.dot2} />ITD — Fix Expiry + MRC Field Mapping</div>
-        <div className={styles.taskRow}><span className={styles.dot2} />Create Teams Channel + Send Invites</div>
+        <div className={styles.taskRow}><span className={styles.dot2} />Client B — Fix field mapping queries</div>
+        <div className={styles.taskRow}><span className={styles.dot2} />Create comms channel + send invites</div>
         <div className={styles.divider} />
         <div className={styles.sectionLabel}>THIS WEEK</div>
-        <div className={styles.taskRow}><span className={styles.dot3} />AD Engineering — Follow up Armando — Tue</div>
-        <div className={styles.taskRow}><span className={styles.dot3} />ConvoIQ QA Module — Internal Demo — Thu</div>
-        <div className={styles.taskRow}><span className={styles.dot3} />ITD — UAT Cycle Follow Up — Fri</div>
+        <div className={styles.taskRow}><span className={styles.dot3} />Client C — Follow up on build feedback — Tue</div>
+        <div className={styles.taskRow}><span className={styles.dot3} />Product QA Module — Internal Demo — Thu</div>
+        <div className={styles.taskRow}><span className={styles.dot3} />Client B — UAT Cycle Follow Up — Fri</div>
       </div>
     </div>
   )
