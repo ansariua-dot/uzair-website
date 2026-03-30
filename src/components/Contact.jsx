@@ -14,12 +14,12 @@ export default function Contact() {
             ansari.ua@gmail.com
           </a>
           <a
-            href="https://linkedin.com/in/uzairansari"
+            href="https://www.linkedin.com/in/uzair-ansari-54618011/"
             target="_blank"
             rel="noreferrer"
             className={styles.link}
           >
-            linkedin.com/in/uzairansari
+            linkedin.com/in/uzair-ansari-54618011
           </a>
         </div>
         <a href="#" className={styles.top}>Back to top ↑</a>
