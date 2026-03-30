@@ -2,9 +2,9 @@ import { useState, useRef, useEffect, useCallback } from 'react'
 import styles from './VideoCarousel.module.css'
 
 const videos = [
+  '/videos/sa-3.mp4',
   '/videos/sa-1.mp4',
   '/videos/sa-2.mp4',
-  '/videos/sa-3.mp4',
   '/videos/sa-4.mp4',
 ]
 
