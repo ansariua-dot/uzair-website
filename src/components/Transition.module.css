@@ -1,0 +1,29 @@
+.wrap {
+  background: var(--black);
+  padding: 0 24px 80px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.line {
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(to right, transparent, #2a2a2a, transparent);
+}
+
+.text {
+  font-size: 15px;
+  color: var(--muted);
+  font-style: italic;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+@media (max-width: 600px) {
+  .text { white-space: normal; text-align: center; }
+  .wrap { flex-direction: column; gap: 16px; padding-bottom: 60px; }
+  .line { width: 60px; flex: none; }
+}

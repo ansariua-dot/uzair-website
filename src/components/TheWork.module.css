@@ -1,0 +1,140 @@
+.section {
+  background: var(--black);
+  padding: 120px 24px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.label {
+  font-size: 11px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--tech-blue);
+  margin-bottom: 32px;
+}
+
+.heading {
+  font-size: clamp(32px, 5vw, 52px);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  line-height: 1.1;
+  color: #fff;
+  margin-bottom: 28px;
+}
+
+.intro {
+  margin-bottom: 80px;
+}
+
+.body {
+  font-size: 16px;
+  color: #aaa;
+  line-height: 1.8;
+  max-width: 640px;
+  margin-bottom: 20px;
+}
+
+.cvButton {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 28px;
+  border: 1px solid var(--tech-border);
+  border-radius: 4px;
+  font-size: 13px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--tech-blue);
+  background: var(--tech-dim);
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.cvButton:hover {
+  background: rgba(74, 158, 255, 0.2);
+  border-color: var(--tech-blue);
+}
+
+.projectsLabel {
+  font-size: 11px;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 24px;
+  padding-top: 8px;
+  border-top: 1px solid #1a1a1a;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.card {
+  background: #111;
+  border: 1px solid #1e1e1e;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: border-color 0.2s;
+}
+
+.card:hover {
+  border-color: var(--tech-border);
+}
+
+.previewWrap {
+  border-bottom: 1px solid #1a1a1a;
+  padding: 16px;
+  background: #0d0d0d;
+}
+
+.cardHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 14px;
+  padding: 20px 24px 0;
+}
+
+.cardName {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.cardMeta {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.cardDesc {
+  font-size: 14px;
+  color: #888;
+  line-height: 1.7;
+  margin-bottom: 18px;
+  padding: 0 24px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0 24px 24px;
+}
+
+.tag {
+  font-size: 11px;
+  padding: 3px 10px;
+  border-radius: 100px;
+  background: var(--tech-dim);
+  color: var(--tech-blue);
+  border: 1px solid var(--tech-border);
+  letter-spacing: 0.04em;
+}
+
+@media (max-width: 640px) {
+  .projects { grid-template-columns: 1fr; }
+  .section { padding: 80px 20px; }
+}
