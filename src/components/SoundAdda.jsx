@@ -51,19 +51,28 @@ export default function SoundAdda() {
 
         <div className={styles.intro}>
           <h2 className={styles.heading}>
-            Eight years of building<br />a music culture.
+            Built for community.<br />Sustained by purpose.
           </h2>
           <p className={styles.body}>
-            Sound Adda started as a jam room — a physical space in Karachi where musicians
-            could come together, play freely, and build chemistry without the pressure
-            of a commercial stage. The format was simple: careful curation, a resident
-            house band, and an audience close enough to feel every note.
+            Sound Adda began as a non-profit. Not a venue, not a brand — a gathering. A physical
+            space in Karachi where musicians could come together without agenda, play freely, and
+            build real relationships. The idea was simple: meaningful curation, a resident house
+            band, and an audience close enough to feel every note. No ticket sales. No commercials.
+            Just the music and the people in the room.
           </p>
           <p className={styles.body}>
-            Over eight years, that consistency built something real. A network of 50-plus
-            musicians. A recognisable experience. A platform trusted enough to carry its
-            philosophy onto bigger stages — without losing what made the room feel like
-            the room.
+            Over eight years, that consistency built something harder to manufacture. A network
+            of 50-plus musicians, TV and radio personalities, business entrepreneurs, and creative
+            professionals — all connected through the same room. Artists have found collaborators
+            here. Musicians have found clients, gigs, and long-term business through connections
+            that started at a Sound Adda session. The platform became a quiet engine for real-world
+            opportunity within Pakistan's independent music scene.
+          </p>
+          <p className={styles.body}>
+            Live events came later — not as a commercial pivot, but as proof that the philosophy
+            could travel. From an intimate charity event at the Yamaha Music Store raising funds
+            for flood relief, to a full production concert in Khairpur Mirs for 1,200 people. The
+            same curation. The same spirit. A bigger stage.
           </p>
         </div>
 
@@ -88,8 +97,9 @@ export default function SoundAdda() {
 
         <div className={styles.footer}>
           <p className={styles.footerText}>
-            Sound Adda is still a jam room at heart. It is also now a platform capable
-            of carrying the same spirit onto any stage.
+            Sound Adda is still a jam room at heart. It is also a platform, a network,
+            and a quiet vehicle for giving independent musicians in Pakistan something
+            that is genuinely hard to find: access, connection, and community.
           </p>
         </div>
 
